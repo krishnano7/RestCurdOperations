@@ -7,6 +7,8 @@ import org.springframework.stereotype.Repository;
 
 import com.tech_m.entity.User;
 
+import antlr.collections.List;
+
 
 @Repository	
 public interface IUser extends JpaRepository<User, Long> {
