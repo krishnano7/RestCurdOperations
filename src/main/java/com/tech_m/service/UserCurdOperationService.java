@@ -58,6 +58,7 @@ public class UserCurdOperationService {
 	public List<User> getAllUsers() {
 		
 		List<User> userData = userRep.findAll();
+		System.out.println("getting data from bd for mock:"+ User);
 		
 		return userData;
 	}
